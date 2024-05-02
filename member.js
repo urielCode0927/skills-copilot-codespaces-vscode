@@ -1,4 +1,5 @@
-function skillsMemeber() {
-    let skills = ['HTML', 'CSS', 'JS', 'React', 'Node', 'Python', 'Django'];
-    return skills;
+function skillsMember() {
+    var member = new Member();
+    member.skills = ['JavaScript', 'CSS', 'HTML'];
+    return member;
 }
